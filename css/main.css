@@ -1,0 +1,151 @@
+.wrapper {
+    font-family: "League Spartan", sans-serif;
+    font-style: normal;
+    color: #161515;
+    font-weight: 300px;
+}
+
+.welcome {
+    background: #f8f8f8;
+    padding-bottom: 168px;
+    margin-bottom: 43px;
+}
+
+
+.welcome__container {
+    display: flex;
+}
+
+.offer {
+    padding-top: 104px;
+    max-width: 640px;
+}
+
+.offer__model {
+    font-weight: 300px;
+    font-size: 24px;
+    margin-bottom: 53px;
+}
+
+.title {
+    font-weight: 300;
+    font-size: 250px;
+    color: 272727;
+    line-height: 0.9;
+    margin-bottom: 54px;
+}
+
+.desc {
+    font-size: 32px;
+    line-height: 1.55;
+}
+
+.offer__desc {
+    margin-bottom: 51px;
+}
+
+.buy {
+    display: flex;
+}
+
+.buy__link {
+    background: #161515;
+    color: #fff;
+    font-weight: 300;
+    font-size: 32px;
+    padding: 26px 74px;
+    display: inline-block;
+}
+
+.buy__price {
+    /*
+     Тень
+     box-shadow: Смещение_по_X, Смещение_по_Y, размытие, растяжение, цвет
+    */
+    box-shadow: 0 0 28px 0 rgba(214, 214, 214, 0.25);
+    background-color: #fff;
+    display: inline-flex;
+    align-items: center;
+    font-size: 32px;
+    color: #272727;
+    padding: 0px 33px;
+}
+
+.products {
+    padding-top: 43px;
+padding-bottom: 142px;}
+
+.container {}
+
+.products_container {
+    max-width: 531px;
+    text-align: center;
+}
+
+.products_header {
+    color: #000;
+    margin-bottom: 194px;
+}
+
+.supertitle {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.products_title {
+    font-weight: 400;
+    font-size: 72px;
+    font-weight: 400;
+    font-size: 32px;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.products_list {
+    margin-bottom: 100px;
+}
+/* Установить внешний нижний отступ для карточки(кроме последнего братского элемента с этим классом) */
+.product:not(:last-child) {
+    margin-bottom: 150px;
+
+}
+
+.product_img {
+    max-width: 286px;
+    margin-bottom: 132px;
+}
+
+.product_desc {}
+
+.product_title {}
+
+.product_text {
+    font-size: 32px;
+    line-height: 155%;
+}
+
+.product_desc-title {
+    font-weight: 400;
+    margin-bottom: 49px;
+    font-size: 32px;
+}
+
+.product_desc-title::after{
+    content: "";
+    display: block;
+    width: 34%;
+    border-bottom: 1px solid #707070;
+    height: 10px;
+    margin: 0 auto;
+}
+
+.product_desc-text {
+    font-size: 24px;
+    line-height: 1.7;
+}
+
+.product_desc-link {
+    font-weight: 500;
+    text-decoration: underline;
+    color: #bb8b5d;
+}
